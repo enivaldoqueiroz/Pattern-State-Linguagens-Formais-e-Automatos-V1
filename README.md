@@ -7,6 +7,7 @@ implementação das questões.
 
 a. {xxr | x ∈ ∑*} (xr significa cadeia reversa de x, i.e., à cadeia com os
 caracteres na ordem inversa da que eles aparecem em x.)
+
 b. {a​(i^2)​ | i ∈ ℕ}
 
 2. O objetivo deste trabalho é verificar como os autômatos podem ser aplicados na
