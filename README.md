@@ -4,9 +4,11 @@ Trabalho da Primeira Verificação - V1 / Utilizando o Padrão State na discipli
 1. Seja ∑ o alfabeto {a,b}: Quais as linguagens abaixo? Liste exemplos de cadeias
 que pertencem e que não pertencem a cada uma das linguagens. Realize a
 implementação das questões.
+
 a. {xxr | x ∈ ∑*} (xr significa cadeia reversa de x, i.e., à cadeia com os
 caracteres na ordem inversa da que eles aparecem em x.)
 b. {a​(i^2)​ | i ∈ ℕ}
+
 2. O objetivo deste trabalho é verificar como os autômatos podem ser aplicados na
 prática, inclusive em um projeto de desenvolvimento de software. Imagine que
 você vai implementar um e-commerce, logo:
@@ -16,11 +18,14 @@ entregue, pedido cancelado, pedido finalizado, etc.)
 b. Realize a implementação básica utilizando o padrão de projetos State
 deste diagrama utilizando alguma linguagem de programação orientada a
 objetos.
+
 c. Defina exemplos de funcionalidades (não precisa ter à implementação
 dessas funcionalidades apenas a especificação e definição delas, como
 nome parâmetros e retorno do método)
 d. Realize testes para validar o fluxo definido no diagrama, que aceite e
-rejeite simulações de pedidos.3. Resolva e implemente os seguintes DFA's (Dica: Utilize o padrão de projeto
+rejeite simulações de pedidos.
+
+3. Resolva e implemente os seguintes DFA's (Dica: Utilize o padrão de projeto
 state). Considere exemplos de cadeias que devem ser aceitas e rejeitadas pelo
 autômato.
 a. Nelson Rubens é um jornalista brasileiro especializado em fofoca e
