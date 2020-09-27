@@ -9,7 +9,7 @@ public class Pedido {
 		estado = new PedidoNovo();
 	}
 	
-	//Metodos
+	//Metodos da classe Pedido
 	public void iniciarPedidoNovo() {
 		estado = estado.iniciarPedidoNovo();
 	}
