@@ -2,39 +2,39 @@ package e_commerce;
 
 public class PedidoEmTransporte implements PedidoState {
 
-	@Override
+	
 	public PedidoState iniciarPedidoNovo() {
-		
-		return null;
+		System.out.println("Novo Pedido");
+		return this;
 	}
 
-	@Override
+	
 	public PedidoState fazerAprovacaoDePedido() {
-		
-		return null;
+		System.out.println("Pedido Aprovado");
+		return new PedidoAprovado();
 	}
 
-	@Override
+	
 	public PedidoState informarPedidoEmTransporte() {
-		
-		return null;
+		System.out.println("Pedido em Transporte");
+		return this;
 	}
 
-	@Override
+	
 	public PedidoState fazerEntregaDePedito() {
-		
-		return null;
+		System.out.println("Pedido Entregue");
+		return new PedidoEntregue();
 	}
 
-	@Override
+	
 	public PedidoState cancelarPedido() {
-		
-		return null;
+		System.out.println("Pedido Cancelado");
+		return new PedidoCancelado();
 	}
 
-	@Override
+	
 	public PedidoState finalizarPedido() {
-		
+		System.out.println("Pedido Finalizado");
 		return null;
 	}
 	

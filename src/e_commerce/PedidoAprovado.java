@@ -4,38 +4,38 @@ public class PedidoAprovado implements PedidoState {
 
 	
 	public PedidoState iniciarPedidoNovo() {
-		
-		return null;
+		System.out.println("Novo Pedido");
+		return this;
 	}
 
 	
 	public PedidoState fazerAprovacaoDePedido() {
-		
-		return null;
+		System.out.println("Pedido Aprovado");
+		return new PedidoAprovado();
 	}
 
 	
 	public PedidoState informarPedidoEmTransporte() {
-		
-		return null;
+		System.out.println("Pedido em Transporte");
+		return new PedidoEmTransporte();
 	}
 
 	
 	public PedidoState fazerEntregaDePedito() {
-		
-		return null;
+		System.out.println("Pedido Entregue");
+		return new PedidoEntregue();
 	}
 
 	
 	public PedidoState cancelarPedido() {
-		
-		return null;
+		System.out.println("Pedido Cancelado");
+		return new PedidoCancelado();
 	}
 
 	
 	public PedidoState finalizarPedido() {
-		
-		return null;
+		System.out.println("Pedido Finalizado");
+		return new PeditoFinalizado();
 	}
 
 	public PedidoState verificarPedidoEntregue() {
