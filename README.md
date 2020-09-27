@@ -15,6 +15,7 @@ b. {a​(i^2)​ | i ∈ ℕ}
 a. Realizar um diagrama de estados de pedido considerando estados, por
 exemplo pedido novo, pedido aprovado, pedido em transporte, pedido
 entregue, pedido cancelado, pedido finalizado, etc.)
+<img src="https://github.com/enivaldoqueiroz/Pattern-State-Linguagens-Formais-e-Automatos-V1/blob/master/Imagens/Imagem-Q2-item-a.jpg">
 
 b. Realize a implementação básica utilizando o padrão de projetos State
 deste diagrama utilizando alguma linguagem de programação orientada a
