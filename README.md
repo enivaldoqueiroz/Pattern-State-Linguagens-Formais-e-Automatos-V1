@@ -25,18 +25,21 @@ objetos.
 c. Defina exemplos de funcionalidades (não precisa ter à implementação
 dessas funcionalidades apenas a especificação e definição delas, como
 nome parâmetros e retorno do método)
+
 d. Realize testes para validar o fluxo definido no diagrama, que aceite e
 rejeite simulações de pedidos.
 
 3. Resolva e implemente os seguintes DFA's (Dica: Utilize o padrão de projeto
 state). Considere exemplos de cadeias que devem ser aceitas e rejeitadas pelo
 autômato.
+
 a. Nelson Rubens é um jornalista brasileiro especializado em fofoca e
 celebridades que utiliza o jargão OK!, OK!. Para ajudar o jornalista você
 irá projetar um autômato sobre ∑ = {o,k}, para a linguagem L = {w | w tem,
 contém, a subcadeia ok}. Exemplos de cadeias aceitas pelo autômato
 são: {kok, okok, kkkoookkk,...}, Exemplos de cadeias que não são aceitas
 {kkkkk, ko, koko, ooo, ...}
+
 b. Seja ∑ = {0,1}, projete um autômato para a linguagem L = {w | w tem ao
 mesmo tempo um número par de 0’s e 1’s}. Exemplos de cadeias aceitas
 pelo autômato são: {1001, 000011, 11101000, 01010101, ...}, Exemplos
