@@ -13,9 +13,11 @@ b. {a​(i^2)​ | i ∈ ℕ}
 2. O objetivo deste trabalho é verificar como os autômatos podem ser aplicados na
 prática, inclusive em um projeto de desenvolvimento de software. Imagine que
 você vai implementar um e-commerce, logo:
+
 a. Realizar um diagrama de estados de pedido considerando estados, por
 exemplo pedido novo, pedido aprovado, pedido em transporte, pedido
 entregue, pedido cancelado, pedido finalizado, etc.)
+
 b. Realize a implementação básica utilizando o padrão de projetos State
 deste diagrama utilizando alguma linguagem de programação orientada a
 objetos.
