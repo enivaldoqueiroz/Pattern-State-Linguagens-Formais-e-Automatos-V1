@@ -7,9 +7,17 @@
 a. {xxr | x ∈ ∑*} (xr significa cadeia reversa de x, i.e., à cadeia com os
 caracteres na ordem inversa da que eles aparecem em x.)
 
+#### I) Cadeias Aceitas
+
 #### x{abab, baba, aabaab,abbabb}
 
 #### xr{baba, abab,baabaa,bbabba}
+
+#### II) Cadeias Não Aceitas
+
+#### x{" ",a, b, aa, bb, abb, baa, bbb, aaa}
+
+
 
 
 b. {a​(i^2)​ | i ∈ ℕ},
