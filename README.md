@@ -29,6 +29,18 @@ c. Defina exemplos de funcionalidades (não precisa ter à implementação
 dessas funcionalidades apenas a especificação e definição delas, como
 nome parâmetros e retorno do método)
 
+Classe PedidoState
+  //Metodos de comportamento do Estado de pedido
+	PedidoState iniciarPedidoNovo();              // Inicia o novo pedido
+	PedidoState fazerAprovacaoDePedido(int op);   //Verifica se o tempo maximo do para o cancelamento é valido - O parametro int op recebe o valor da verificação informado na                                                     //classe Principal 
+	PedidoState informarPedidoEmTransporte();     //Informa o status do pedido
+	PedidoState fazerEntregaDePedito();           //Realiza a entrega do pedido
+  PedidoState verificarPedidoEntregue(int op);  //Valida se a entrega do pedido esta Errada ou Certa - O parametro int op recebe o valor da verificação informado na classe                                                       //Principal
+	PedidoState cancelarPedido();                 //Cancela o pedido caso o tempo maximo seja menor que 14 min ou se o pedido foi entregue errado 
+	PedidoState finalizarPedido();                //Após pedido entregue realiza a finalização do pedido
+	
+  
+
 d. Realize testes para validar o fluxo definido no diagrama, que aceite e
 rejeite simulações de pedidos.
 
