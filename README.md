@@ -28,15 +28,15 @@ nome parâmetros e retorno do método)
 d. Realize testes para validar o fluxo definido no diagrama, que aceite e
 rejeite simulações de pedidos.
 
-### Pedido Aceito
+#### Pedido Aceito
 
 <img src="https://github.com/enivaldoqueiroz/Pattern-State-Linguagens-Formais-e-Automatos-V1/blob/master/Imagens/Imagem-Q2-item-d-pedido-aceito.jpg">
 
-### Pedido Rejeitado
+#### Pedido Rejeitado
 
 <img src="https://github.com/enivaldoqueiroz/Pattern-State-Linguagens-Formais-e-Automatos-V1/blob/master/Imagens/Imagem-Q2-item-d-pedido-rejeitado.jpg">
 
-### Pedido Cancelado
+#### Pedido Cancelado
 <img src="https://github.com/enivaldoqueiroz/Pattern-State-Linguagens-Formais-e-Automatos-V1/blob/master/Imagens/Imagem-Q2-item-d-pedido-cancelado.jpg">
 
 ### 3. Resolva e implemente os seguintes DFA's (Dica: Utilize o padrão de projeto state). 
