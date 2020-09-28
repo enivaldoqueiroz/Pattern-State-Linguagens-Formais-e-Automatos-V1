@@ -9,8 +9,15 @@ public class PedidoAprovado implements PedidoState {
 	}
 
 	
-	public PedidoState fazerAprovacaoDePedido() {
-		System.out.println("Pedido Aprovado");
+	public PedidoState fazerAprovacaoDePedido(int temp) {
+		if(temp < 15) {
+			System.out.println("Pedido Cancelado");
+			return new PedidoCancelado();
+		}else {
+			System.out.println("Pedido Aprovado");
+			System.out.println("Pedido em Preparação");
+		}
+		
 		return new PedidoAprovado();
 	}
 
@@ -22,7 +29,7 @@ public class PedidoAprovado implements PedidoState {
 
 	
 	public PedidoState fazerEntregaDePedito() {
-		System.out.println("Pedido Entregue");
+	
 		return new PedidoEntregue();
 	}
 
@@ -38,8 +45,18 @@ public class PedidoAprovado implements PedidoState {
 		return new PeditoFinalizado();
 	}
 
-	public PedidoState verificarPedidoEntregue() {
-		System.out.println("Pedido OK");
+	public PedidoState verificarPedidoEntregue(int op) {
+		if(op == 1) {
+			System.out.println("Pedido Entregue Erro");
+			System.out.println("Pedido Cancelado");
+			return new PedidoCancelado();
+		}else if (op == 2)	{
+			System.out.println("Pedido Entregue");
+		}
+		
 		return new PeditoFinalizado();
 	}
+
+
+	
 }

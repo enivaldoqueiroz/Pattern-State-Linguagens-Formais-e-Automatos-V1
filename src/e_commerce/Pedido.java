@@ -14,8 +14,8 @@ public class Pedido {
 		estado = estado.iniciarPedidoNovo();
 	}
 	
-	public void fazerAprovacaoDePedido() {
-		estado = estado.fazerAprovacaoDePedido();
+	public void fazerAprovacaoDePedido(int op) {
+		estado = estado.fazerAprovacaoDePedido(op);
 	}
 	
 	public void informarPedidoEmTransporte() {
@@ -26,8 +26,8 @@ public class Pedido {
 		estado = estado.fazerEntregaDePedito();
 	}
 	
-	public void verificarPedidoEntregue() {
-		estado = estado.verificarPedidoEntregue();
+	public void verificarPedidoEntregue(int op) {
+		estado = estado.verificarPedidoEntregue(op);
 	}
 	
 	public void cancelarPedido() {

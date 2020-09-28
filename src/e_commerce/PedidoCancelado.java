@@ -9,7 +9,7 @@ public class PedidoCancelado implements PedidoState {
 	}
 
 	
-	public PedidoState fazerAprovacaoDePedido() {
+	public PedidoState fazerAprovacaoDePedido(int temp) {
 		
 		return null;
 	}
@@ -38,9 +38,18 @@ public class PedidoCancelado implements PedidoState {
 		return null;
 	}
 	
-	public PedidoState verificarPedidoEntregue() {
-		System.out.println("Pedido OK");
+	public PedidoState verificarPedidoEntregue(int op) {
+		if(op == 1) {
+			System.out.println("Pedido Entregue Erro");
+			System.out.println("Pedido Cancelado");
+			return new PedidoCancelado();
+		}else if (op == 2)	{
+			System.out.println("Pedido Entregue");
+		}
+		
 		return new PeditoFinalizado();
 	}
+
+
 
 }

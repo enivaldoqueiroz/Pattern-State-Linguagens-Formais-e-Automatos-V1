@@ -9,7 +9,7 @@ public class PedidoEmTransporte implements PedidoState {
 	}
 
 	
-	public PedidoState fazerAprovacaoDePedido() {
+	public PedidoState fazerAprovacaoDePedido(int op) {
 		System.out.println("Pedido Aprovado");
 		return new PedidoAprovado();
 	}
@@ -22,7 +22,7 @@ public class PedidoEmTransporte implements PedidoState {
 
 	
 	public PedidoState fazerEntregaDePedito() {
-		System.out.println("Pedido Entregue");
+		
 		return new PedidoEntregue();
 	}
 
@@ -38,9 +38,19 @@ public class PedidoEmTransporte implements PedidoState {
 		return null;
 	}
 	
-	public PedidoState verificarPedidoEntregue() {
-		System.out.println("Pedido OK");
+	public PedidoState verificarPedidoEntregue(int op) {
+		
+		if(op == 1) {
+			System.out.println("Pedido Entregue Erro");
+			return new PedidoCancelado();
+		}else if (op == 2)	{
+			System.out.println("Pedido Entregue");
+		}
+		
 		return new PeditoFinalizado();
 	}
 
+
+	
+	
 }
