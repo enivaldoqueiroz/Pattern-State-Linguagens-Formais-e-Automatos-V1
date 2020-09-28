@@ -29,9 +29,13 @@ d. Realize testes para validar o fluxo definido no diagrama, que aceite e
 rejeite simulações de pedidos.
 
 ### Pedido Aceito
+
 <img src="https://github.com/enivaldoqueiroz/Pattern-State-Linguagens-Formais-e-Automatos-V1/blob/master/Imagens/Imagem-Q2-item-d-pedido-aceito.jpg">
+
 ### Pedido Rejeitado
+
 <img src="https://github.com/enivaldoqueiroz/Pattern-State-Linguagens-Formais-e-Automatos-V1/blob/master/Imagens/Imagem-Q2-item-d-pedido-rejeitado.jpg">
+
 ### Pedido Cancelado
 <img src="https://github.com/enivaldoqueiroz/Pattern-State-Linguagens-Formais-e-Automatos-V1/blob/master/Imagens/Imagem-Q2-item-d-pedido-cancelado.jpg">
 
