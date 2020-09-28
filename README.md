@@ -7,7 +7,18 @@
 a. {xxr | x ∈ ∑*} (xr significa cadeia reversa de x, i.e., à cadeia com os
 caracteres na ordem inversa da que eles aparecem em x.)
 
-b. {a​(i^2)​ | i ∈ ℕ}
+x{abab, baba, aabaab,abbabb}
+xr{baba, abab,baabaa,bbabba}
+
+
+b. {a​(i^2)​ | i ∈ ℕ},
+
+i = 0 -> a
+i = 1 -> aa
+i = 2 -> aaaa
+i = 3 -> aaaaaaaaa
+i = 4 -> aaaaaaaaaaaaaaaa
+
 
 ### 2. O objetivo deste trabalho é verificar como os autômatos podem ser aplicados na prática, inclusive em um projeto de desenvolvimento de software. 
 ### Imagine que você vai implementar um e-commerce, logo:
