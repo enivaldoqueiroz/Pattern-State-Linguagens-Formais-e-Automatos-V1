@@ -26,6 +26,8 @@ b. {a​(i^2)​ | i ∈ ℕ},
 
 #### i = 4 -> aaaaaaaaaaaaaaaa
 
+#### {a, aa, aaaa, aaaaaaaaa, aaaaaaaaaaaaaaaa}
+
 
 ### 2. O objetivo deste trabalho é verificar como os autômatos podem ser aplicados na prática, inclusive em um projeto de desenvolvimento de software. 
 ### Imagine que você vai implementar um e-commerce, logo:
