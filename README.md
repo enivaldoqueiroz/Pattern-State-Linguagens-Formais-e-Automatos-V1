@@ -8,15 +8,20 @@ a. {xxr | x ∈ ∑*} (xr significa cadeia reversa de x, i.e., à cadeia com os
 caracteres na ordem inversa da que eles aparecem em x.)
 
 x{abab, baba, aabaab,abbabb}
+
 xr{baba, abab,baabaa,bbabba}
 
 
 b. {a​(i^2)​ | i ∈ ℕ},
 
 i = 0 -> a
+
 i = 1 -> aa
+
 i = 2 -> aaaa
+
 i = 3 -> aaaaaaaaa
+
 i = 4 -> aaaaaaaaaaaaaaaa
 
 
