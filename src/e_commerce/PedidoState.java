@@ -2,7 +2,7 @@ package e_commerce;
 
 public interface PedidoState {
 	
-	//Metodos de coportamento do Estado de pedido
+	//Metodos de comportamento do Estado de pedido
 	PedidoState iniciarPedidoNovo();
 	PedidoState fazerAprovacaoDePedido(int op);
 	PedidoState informarPedidoEmTransporte();
