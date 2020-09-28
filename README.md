@@ -31,10 +31,10 @@ nome parâmetros e retorno do método)
 
 ##### Metodos de comportamento do Estado de pedido
 
-##### Inicia o novo pedido
+##### Inicia um novo pedido
 PedidoState iniciarPedidoNovo(); 
 
-##### Verifica se o tempo maximo do para o cancelamento é valido - O parametro int op recebe o valor da verificação informado na classe Principal 
+##### Verifica se o tempo maximo para o cancelamento é valido - O parametro int op recebe o valor da verificação informado na classe Principal 
 PedidoState fazerAprovacaoDePedido(int op);
 
 ##### Informa o status do pedido
