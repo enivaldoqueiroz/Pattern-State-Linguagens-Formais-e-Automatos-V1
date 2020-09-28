@@ -104,6 +104,14 @@ contém, a subcadeia ok}. Exemplos de cadeias aceitas pelo autômato
 são: {kok, okok, kkkoookkk,...}, Exemplos de cadeias que não são aceitas
 {kkkkk, ko, koko, ooo, ...}
 
+#### Cadeia Aceita
+
+<img src="https://github.com/enivaldoqueiroz/Pattern-State-Linguagens-Formais-e-Automatos-V1/blob/master/Imagens/Imagem-Q3-item-a-cadeia-aceito.jpg">
+
+#### Cadeia Não Aceita
+
+<img src="https://github.com/enivaldoqueiroz/Pattern-State-Linguagens-Formais-e-Automatos-V1/blob/master/Imagens/Imagem-Q3-item-a-cadeia-nao-aceito.jpg">
+
 b. Seja ∑ = {0,1}, projete um autômato para a linguagem L = {w | w tem ao
 mesmo tempo um número par de 0’s e 1’s}. Exemplos de cadeias aceitas
 pelo autômato são: {1001, 000011, 11101000, 01010101, ...}, Exemplos
