@@ -14,6 +14,8 @@ xr{baba, abab,baabaa,bbabba}
 
 b. {a​(i^2)​ | i ∈ ℕ},
 
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
+
 i = 0 -> a
 
 i = 1 -> aa
