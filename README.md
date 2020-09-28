@@ -9,7 +9,7 @@ caracteres na ordem inversa da que eles aparecem em x.)
 
 #### x{abab, baba, aabaab,abbabb}
 
-xr{baba, abab,baabaa,bbabba}
+#### xr{baba, abab,baabaa,bbabba}
 
 
 b. {a​(i^2)​ | i ∈ ℕ},
