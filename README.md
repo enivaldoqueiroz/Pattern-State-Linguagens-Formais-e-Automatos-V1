@@ -7,14 +7,14 @@
 a. {xxr | x ∈ ∑*} (xr significa cadeia reversa de x, i.e., à cadeia com os
 caracteres na ordem inversa da que eles aparecem em x.)
 
-x{abab, baba, aabaab,abbabb}
+#f03c15 x{abab, baba, aabaab,abbabb}
 
 xr{baba, abab,baabaa,bbabba}
 
 
 b. {a​(i^2)​ | i ∈ ℕ},
 
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
+
 
 i = 0 -> a
 
