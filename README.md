@@ -124,3 +124,10 @@ de cadeias que não são aceitas {001, 110, 0101, ...}
 #### Cadeia Não Aceita
 
 <img src="https://github.com/enivaldoqueiroz/Pattern-State-Linguagens-Formais-e-Automatos-V1/blob/master/Imagens/Imagem-Q3-item-b-cadeia--nao-aceito.jpg">
+
+#### Videos
+
+[![VIDEO01](https://github.com/enivaldoqueiroz/Pattern-State-Linguagens-Formais-e-Automatos-V1/blob/master/Imagens/Imagem-Q2-item-a.jpg)](https://youtu.be/ZNg4d5do_8A)
+
+[![VIDEO02](https://github.com/enivaldoqueiroz/Pattern-State-Linguagens-Formais-e-Automatos-V1/blob/master/Imagens/Imagem-Q2-item-a.jpg)](https://youtu.be/qbU3wnSl7Pg)
+
