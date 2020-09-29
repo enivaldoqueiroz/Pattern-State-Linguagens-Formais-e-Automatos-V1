@@ -127,7 +127,7 @@ de cadeias que não são aceitas {001, 110, 0101, ...}
 
 #### Videos
 
-[![VIDEO Q2 A e D]](https://youtu.be/ZNg4d5do_8A)
+[VIDEO Q2 A e D](https://youtu.be/ZNg4d5do_8A)
 
-[![VIDEO Q3 A e B]](https://youtu.be/qbU3wnSl7Pg)
+[VIDEO Q3 A e B](https://youtu.be/qbU3wnSl7Pg)
 
