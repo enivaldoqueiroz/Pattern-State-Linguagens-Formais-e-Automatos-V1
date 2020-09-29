@@ -116,3 +116,11 @@ b. Seja ∑ = {0,1}, projete um autômato para a linguagem L = {w | w tem ao
 mesmo tempo um número par de 0’s e 1’s}. Exemplos de cadeias aceitas
 pelo autômato são: {1001, 000011, 11101000, 01010101, ...}, Exemplos
 de cadeias que não são aceitas {001, 110, 0101, ...}
+
+#### Cadeia Aceita
+
+<img src="https://github.com/enivaldoqueiroz/Pattern-State-Linguagens-Formais-e-Automatos-V1/blob/master/Imagens/Imagem-Q3-item-b-cadeia-aceito.jpg">
+
+#### Cadeia Não Aceita
+
+<img src="https://github.com/enivaldoqueiroz/Pattern-State-Linguagens-Formais-e-Automatos-V1/blob/master/Imagens/Imagem-Q3-item-b-cadeia-nao-aceito.jpg">
