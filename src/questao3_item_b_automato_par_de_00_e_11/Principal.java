@@ -7,15 +7,15 @@ public class Principal {
 
 	public static void main(String[] args) {
 		
-			ParBinario jargao = new ParBinario();
+			ParBinario parBinario = new ParBinario();
 			
 			Scanner scanner = new Scanner(System.in);
 			System.out.println("Digite a cadeia de caracteres: ");
 			String myString = scanner.next();		
 			scanner.close();
 						
-			jargao.exibirCadeiaAceita(myString);
-			jargao.exibirCadeiaNaoAceita(myString);
+			parBinario.exibirCadeiaAceita(myString);
+			parBinario.exibirCadeiaNaoAceita(myString);
 		
 
 	}
