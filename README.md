@@ -127,7 +127,7 @@ de cadeias que não são aceitas {001, 110, 0101, ...}
 
 #### Videos
 
-[![VIDEO01](https://github.com/enivaldoqueiroz/Pattern-State-Linguagens-Formais-e-Automatos-V1/blob/master/Imagens/Imagem-Q2-item-a.jpg)](https://youtu.be/ZNg4d5do_8A)
+[![VIDEO01](https://github.com/enivaldoqueiroz/Pattern-State-Linguagens-Formais-e-Automatos-V1/blob/master/Imagens/DesignPatter_State_Pattern.jpeg)](https://youtu.be/ZNg4d5do_8A)
 
-[![VIDEO02](https://github.com/enivaldoqueiroz/Pattern-State-Linguagens-Formais-e-Automatos-V1/blob/master/Imagens/Imagem-Q2-item-a.jpg)](https://youtu.be/qbU3wnSl7Pg)
+[![VIDEO02](https://github.com/enivaldoqueiroz/Pattern-State-Linguagens-Formais-e-Automatos-V1/blob/master/Imagens/DesignPatter_State_Pattern.jpeg)](https://youtu.be/qbU3wnSl7Pg)
 
