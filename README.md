@@ -131,3 +131,8 @@ de cadeias que não são aceitas {001, 110, 0101, ...}
 
 [VIDEO Q3 A e B](https://youtu.be/qbU3wnSl7Pg)
 
+#### Solução das questões 
+
+[VIDEO DA SOLUÇÂO DAS Q2 D e Q3 A e B](https://youtu.be/TLBVWNulm5A)
+
+
